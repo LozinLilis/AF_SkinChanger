@@ -1,0 +1,9 @@
+name: AF_SkinChanger
+version: '${project.version}'
+main: org.lozin.af_skinchanger.AF_SkinChanger
+load: STARTUP
+softdepend: [AzureFlow]
+authors: [Lozin]
+commands:
+  af_skin_changer:
+    aliases: [af_skin, afs]

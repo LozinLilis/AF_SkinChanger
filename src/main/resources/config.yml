@@ -1,0 +1,8 @@
+debug: false
+default_material: "NAME_TAG" # 默认显示材料
+default_permission: # 默认权限
+  - "afsc.gui.open"
+
+detectKey: "AzureFlow.data.skin_dic" # 检测器 (如果你要修改, 请修改data后面的路径)
+skinKey: "skin" # af data层 内部的键名: 关联皮肤的名字
+permKey: "permission" # af data层 内部的键名: 关联该物品是否可以幻化皮肤的总权限
